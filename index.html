@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novena de la Virgen de Guadalupe</title>
+  <link rel="icon" type="image/png" href="Guada.png">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+
+    function showSection(sectionId) {
+      // Ocultar todas las secciones
+      const sections = document.querySelectorAll(".section");
+      sections.forEach(section => section.style.display = "none");
+
+      // Mostrar la sección seleccionada
+      const sectionToShow = document.getElementById(sectionId);
+      if (sectionToShow) {
+        sectionToShow.style.display = "block";
+      }
+    }
+  </script>
+  <style>
+    body {
+     font-family: 'Times New Roman', serif;
+      font-size: 0.5cm;
+      color: black;
+      background-color: white;
+      text-align: justify;
+      margin: 20px;
+
+    }
+    a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: blue;
+    }
+    a:hover {
+      color: darkblue;
+    }
+    .section {
+      display: none;
+    }
+
+    h1 {
+      text-align: center;
+    }
+ h2 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      height: auto;
+      padding: 0; /* Eliminar relleno */
+    }
+   
+h3 {
+	    text-align: center;
+            font-weight: bold; /* Negrita */
+            font-size: 12px;   /* Tamaño pequeño */
+            margin: 10px 0;    /* Espaciado opcional */
+	    margin-top: 0;
+        }
+
+  </style>
+</head>
+<body>
+<img src="Guadalupe.png" alt="Imagen centrada y adaptable">
+
+<h2>Acto de Contrición </h2> 
+<h3>Se dice todos los días al empezar la Novena</h3>
+  <p>"Señor mío, Jesucristo, Dios y Hombre verdadero, creador y redentor mío, por ser vos quien sois, y porque os amo sobre
+todas las cosas, me pesa de todo corazón haberos ofendido. Propongo enmendarme y confesarme a su tiempo y ofrezco
+cuanto hiciere en satisfacción de mis pecados, y confío por vuestra bondad y misericordia infinita, que me perdonaréis y
+me daréis gracia para nunca más pecar. Así lo espero por intercesión de mi Madre, nuestra Señora la Virgen de
+Guadalupe. Amén".</p>
+
+  <!-- Navegación -->
+  <nav>
+    
+   <a href="#" onclick="showSection('uno')">Primer Día</a> 
+   <a href="#" onclick="showSection('dos')">Segundo Día</a> 
+   <a href="#" onclick="showSection('tres')">Tercer Día</a> 
+   <a href="#" onclick="showSection('cuatro')">Cuarto Día</a> 
+   <a href="#" onclick="showSection('cinco')">Quinto Día</a> 
+   <a href="#" onclick="showSection('seis')">Sexto Día</a> 
+   <a href="#" onclick="showSection('siete')">Séptimo Día</a> 
+   <a href="#" onclick="showSection('ocho')">Octavo Día</a> 
+   <a href="#" onclick="showSection('nueve')">Noveno Día</a> 
+
+  </nav>
+  </nav>
+
+
+  <!-- Secciones -->
+  <div id="uno" class="section">
+    <h2>Primer Día</h2>
+
+  <p>¡Oh Santísima Virgen de Guadalupe! ¿Qué cosa habrá imposible para ti, cuando multiplicando los prodigios, ni la
+tosquedad ni la grosería del ayate le sirven de embarazo para formar tan primoroso tu retrato, ni la voracidad del
+tiempo en más de cuatro siglos ha sido capaz de destrozarle ni borrarle?<br/>
+¡Qué motivo tan fuerte es este para alentar mi confianza y suplicarte que abriendo el seno de tus piedades, acordándote
+del amplio poder que te dio la Divina Omnipotencia del Señor, para favorecer a los mortales, te dignes estampar en mi
+alma la imagen del Altísimo que han borrado mis culpas!<br/>
+No embarco a tu piedad la grosería de mis perversas costumbres, dígnate sólo mirarme, y ya con esto alentaré mis
+esperanzas; porque yo no puedo creer que si me miras no se conmuevan tus entrañas sobre el miserable de mí. Mi única
+esperanza, después de Jesús, eres tú, Sagrada Virgen María.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio: escucha nuestra oración por aquellos que muertos en Cristo y con
+sepultados en él, anhelan la feliz esperanza de la resurrección. Amén.<br/>
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+  </div>
+
+ <div id="dos" class="section">
+    <h2>Segundo Día</h2>
+
+<p>¡Oh Santísima Virgen de Guadalupe! ¡Qué bien se conoce que eres Abogada nuestra en el tribunal de Dios, pues esas
+hermosísimas manos que jamás dejan de beneficiarnos las juntas ante el pecho en ademán de quien suplica y ruega,
+dándonos con esto a ver que desde el trono de gloria como Reina de los Ángeles y hombres haces también oficio de
+abogada, rogando y procurando a favor nuestro!<br/>
+¿Con qué afectos de reconocimiento y gratitud podré pagar tanta fineza? Siendo que no hay en todo mi corazón
+suficiente caudal para pagarlo. A ti recurro para que me enriquezcas con los dones preciosos de una caridad ardiente y
+fervorosa, de una humildad profunda y de una obediencia pronta al Señor.<br/>
+Esfuerza tus súplicas, multiplica tus ruegos, y no ceses de pedir al Todopoderoso me haga suyo y me conceda ir a darte
+las gracias por el feliz éxito de tu intermediación en la gloria.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio, te ruego por aquellas almas por las cuales tengo o pueda tener
+alguna obligación, sea de caridad o de justicia. Amén</p>
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+
+<div id="tres" class="section">
+    <h2>Tercer Día</h2>
+
+<p>¡Oh Santísima Virgen María de Guadalupe! ¡Qué puedo creer al verte cercada de los rayos del sol, sino que estás
+íntimamente unida al Sol de la Divinidad, que no hay en tu casa ninguna cosa que no sea luz, que no sea gracia y que no
+sea santidad! ¡Qué puedo creer, sino que estás anegada en el piélago de las divinas perfecciones y atributos, y que Dios
+te tiene siempre en su Corazón! Sea para bien, Señora, tan alta felicidad.<br/>
+Yo, entre tanto, arrebatado del gozo que ello me causa, me presento delante del trono de tu soberanía, suplicándote te
+dignes enviar uno de tus ardientes rayos hacia mi corazón: ilumina con su luz mi entendimiento; enciende con su luz mi
+voluntad; haz que acabe yo de persuadirme de que vivo engañado todo el tiempo que no empleo en amarte ti y en
+amar a mi Dios: haz que acabe de persuadirme que me engaño miserablemente cuando amo alguna cosa que no sea mi
+Dios y cuando no te amo a Ti por Dios.<br/>
+Nuestra Señora de Guadalupe María, Reina del Purgatorio: te ruego por las almas más abandonadas y olvidadas y a las
+cuales nadie recuerda; tú, Madre, que te acuerdas de ellas, aplícales los méritos de la Pasión de Jesús, tus méritos y los
+de los santos, y alcancen así el eterno descanso. Amén.
+</p>
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+
+<div id="cuatro" class="section">
+    <h2>Cuarto Día</h2>
+
+<p>¡Oh Santísima María de Guadalupe! Si un ángel del cielo tiene por honra tan grande suya estar a tus pies y que en
+prueba de su gozo abre los brazos y extiende las alas para formar con ellas repisa a tu Majestad, ¿qué deberé yo hacer
+para manifestar mi veneración a tu persona, no ya la cabeza, ni los brazos, sino mi corazón y mi alma para santificándola
+con tus divinas plantas se haga trono digno de tu soberanía?<br/>
+Dígnate, Señora, de admitir este obsequio; no lo desprecies por indigno a tu soberanía, pues el mérito que le falta por mi
+miseria y pobreza lo recompenso con la buena voluntad y deseo.<br/>
+Entra a registrar mi corazón y verás que no lo mueven otras alas sino las del deseo de ser tuyo y el temor de ofender a tu
+Hijo divinísimo. Forma trono de mi corazón, y ya no se envilecerá dándole entrada a la culpa y haciéndose esclavo del
+demonio. Haz que no vivan en él sino Jesús y María.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio: te ruego por aquellas almas que han de salir más pronto de aquel
+lugar de sufrimientos, para que cuanto antes vayan a cantar en tu compañía las eternas misericordias del Señor.Amén.
+</p>
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+
+<div id="cinco" class="section">
+    <h2>QUinto Día</h2>
+ 
+<p>¿Qué correspondía a quien es un cielo por su hermosura, sino uno lleno de estrellas? ¿Con qué podía adornarse una
+belleza toda celestial, sino con los brillos de unas virtudes tan lúcidas y tan resplandecientes como las tuyas?<br/>
+Bendita mil veces la mano de aquel Dios que supo unir en ti hermosura tan peregrina con pureza tan realzada, y gala tan
+brillante y rica con humildad tan apacible. Yo quedo, Señora, absorto de hermosura tan amable, y quisiera que mis ojos
+se fijaran siempre en ti para que mi corazón no se dejara arrastrar en otro afecto que no sea el amor tuyo.<br/>
+No podré lograr este deseo si esos resplandecientes astros con que estás adornada no infunden una ardiente y fervorosa
+caridad, para que ame de todo corazón y con todas mis fuerzas a mi Dios, y después de mi Dios a Ti, como objeto digno
+de que lo amemos todos.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio: te ruego de una manera especial por aquellas almas que han de
+estar más tiempo padeciendo y satisfaciendo a la divina Justicia. Ten compasión de ellas, ya que no pueden merecer sino
+sólo padecer; abrevia sus penas y derrama sobre estas almas el bálsamo de tu consuelo. Amén.
+</p>
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+
+<div id="seis" class="section">
+    <h2>Sexto Día</h2>
+
+<p>¡Oh Santísima Virgen María de Guadalupe! ¡Qué bien dice a tu soberanía ese tapete que la luna forma a tus sagradas
+plantas! Hollaste con invicta planta las vanidades del mundo, y quedando superior a todo lo creado jamás padeciste el
+menguante de la más ligera imperfección: antes de tu primer instante estuviste llena de gracia.<br/>
+Miserable de mí, Señora, que no sabiéndome mantener en los propósitos que hago, no tengo estabilidad en la virtud y
+sólo soy constante en mis viciosas costumbres.<br/>
+Duélete de mí, Madre amorosa y tierna; ya que soy como la luna en mi inconstancia, sea como la luna que está a tus
+pies, esto es, firme siempre en tu devoción y amor, para no padecer los menguantes de la culpa. Haz que esté yo
+siempre a tus plantas por el amor y la devoción, y ya no temeré los menguantes del pecado sino que procuraré darme
+de lleno a mis obligaciones, detestando de corazón todo lo que es ofensa de mi Dios.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio, te ofrezco la más preciosa Sangre de tu Divino Hijo, Jesús, unido a
+las Misas celebradas hoy alrededor del mundo, para que interceda por todas las Santas Almas del Purgatorio que tanto
+anhelan estar en el cielo Amén.</p>
+
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+
+<div id="siete" class="section">
+    <h2>Séptimo Día</h2>
+
+<p>¡Oh Santísima Virgen María de Guadalupe! Nada, nada veo en este hermosísimo retrato que no me lleve a conocer las
+perfecciones de que te dotó el Señor a tu alma inocentísima. Ese lienzo grosero y despreciable; ese pobre pero feliz
+ayate en que se ve estampada tu singular belleza, dan claro a conocer la profundísima humildad que le sirvió de cabeza y
+fundamento a tu asombrosa santidad.<br/>
+No te desdeñaste de tomar la pobre tilma de Juan Diego, para que en ella estampase tu rostro, que es encanto de los
+ángeles, maravilla de los hombres y admiración de todo el universo. Pues, ¿cómo no he de esperar yo de tu benignidad,
+que la miseria y pobreza de mi alma no sean embarazo para que estampes en ella tu imagen graciosísima? Yo te ofrezco
+las telas de mi corazón. Tómalo, Señora, en tus manos y no lo dejes jamás, pues mi deseo es que no se emplee en otra
+cosa que en amarte y amar a Dios.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio: te ruego de modo especial por aquellas almas que más padecen. Es
+ver Nuestra Señora de Guadalupe dad que todas sufren con resignación, pero sus penas son atroces y no podemos
+imaginarlas siquiera. Intercede Madre nuestra por ellas, y Dios escuchará tu oración. Amén.</p>
+
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+
+<div id="ocho" class="section">
+    <h2>Octavo Día</h2>
+
+<p>¡Oh Santísima Virgen de Guadalupe! ¡Qué misteriosa y qué acertada estuvo la mano del Artífice Supremo, bordando tu
+vestido con esa orla de oro finísimo que le sirve de guarnición! Aludió sin duda a aquel finísimo oro de la caridad y del
+amor de Dios con que fueron enriquecidas tus acciones. Y ¿quién duda, Señora, que esta tu encendida caridad y amor de
+Dios estuvo siempre acompañada del amor al prójimo y que no, por verte triunfante en la patria celestial, ¿te has
+olvidado de nosotros?<br/>
+Abre el seno de tus piedades a quien es tan miserable; dale la mano a quien caído te invoca para levantarse; tráete la
+gloria de haber encontrado en mí una misericordia proporcionada, más que todas, a tu compasión y misericordia.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio: te pido que, así como me acuerdo de las benditas ánimas del
+Purgatorio, se acuerden de mí los demás, si he de ir allá a satisfacer por mis pecados. En Ti, Madre mía, pongo toda mi
+confianza de hijo, y sé que no he de quedar defraudado. Amén.</p>
+
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+
+<div id="nueve" class="section">
+    <h2>Noveno Día</h2>
+
+<p>¡Oh Santísima Virgen de Guadalupe! ¿Qué cosa habrá imposible para ti, cuando multiplicando los prodigios, ni la
+tosquedad ni la grosería del ayate le sirven de embarazo para formar tan primoroso tu retrato, ni la voracidad del
+tiempo en más de cuatro siglos ha sido capaz de destrozarle ni borrarle?<br/>
+¡Qué motivo tan fuerte es este para alentar mi confianza y suplicarte que abriendo el seno de tus piedades, acordándote
+del amplio poder que te dio la Divina Omnipotencia del Señor, para favorecer a los mortales, te dignes estampar en mi
+alma la imagen del Altísimo que han borrado mis culpas!<br/>
+No embarco a tu piedad la grosería de mis perversas costumbres, dígnate sólo mirarme, y ya con esto alentaré mis
+esperanzas; porque yo no puedo creer que si me miras no se conmuevan tus entrañas sobre el miserable de mí. Mi única
+esperanza, después de Jesús, eres tú, Sagrada Virgen María.<br/>
+Nuestra Señora de Guadalupe, Reina del Purgatorio: escucha nuestra oración por aquellos que muertos en Cristo y con
+sepultados en él, anhelan la feliz esperanza de la resurrección. Amén.
+</p>
+
+<h3>Se dicen las intenciones de la novena y se reza un Padrenuestro, un Ave María y un Gloria.</h3>
+
+<h2>Acordaos</h2>
+<p>Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que hayan acudido a tu
+protección, implorando tu asistencia y reclamando tu socorro, haya sido abandonado de ti. Animado con esta confianza,
+a ti también acudo, oh Madre, Virgen de las vírgenes, y aunque gimiendo bajo el peso de mis pecados, me atrevo a
+comparecer ante tu presencia soberana. No deseches mis humildes súplicas, oh Madre del Verbo divino, antes bien,
+escúchalas y acógelas benignamente. Amén.</p>
+<h2>Oración final</h2>
+<p>Nuestra Santísima Madre, Nuestra Señora de Guadalupe, por favor lleva a tu Hijo Nuestro Señor Jesucristo nuestras
+fervientes oraciones por aquellos conocidos y desconocidos que hemos muerto.<br/>
+Oh Señor, que eres siempre misericordioso y generoso con tus dones, mira hacia las almas que sufren en el purgatorio.
+No recuerdes sus ofensas y negligencias, pero ten en cuenta Tu amorosa misericordia, que es desde toda la eternidad.
+Límpialos de sus pecados y cumple sus deseos ardientes para que sean dignos de verte cara a cara en tu gloria. Que
+pronto se unan a Ti y escuchen esas benditas palabras que los llamarán a su hogar celestial: "Ven, bendito de Mi Padre,
+toma posesión del reino preparado para ti desde la fundación del mundo". Dale Señor el descanso eterno y que brille
+para ellos la luz perpetua para que descanse en paz. Amén</p>
+
+</div>
+  <!-- Mostrar una sección por defecto -->
+  <script>
+    showSection('nada');
+  </script>
+
+</body>
+</html>

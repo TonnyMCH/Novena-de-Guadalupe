@@ -1,0 +1,21 @@
+{
+    "name": "Novena de la Virgen de Guadalupe",
+    "short_name": "Guadalupe",
+    "description": "Aplicaci\u00f3n de contenido espiritual y recursos para el Santo Rosario.",
+    "icons": [
+        {
+            "src": "Guada.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "Guada.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "black"
+}
